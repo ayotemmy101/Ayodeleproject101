@@ -19,35 +19,6 @@ body{
     }
     
     
-    /* Utility  */
-    
-    section {
-    min-height: 100vh;
-    padding: 0 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-    }
-    
-    .text{
-    margin-bottom: 20px;
-    
-    }
-    
-    img {
-    width: 100%;
-    
-    }
-    
-    h1 {
-    font-size: 40px;
-    text-transform: uppercase;
-    color: blue;
-    margin-bottom: 10px;
-    
-    }
     
     /*Header*/
     
@@ -215,20 +186,4 @@ body{
     transition: 0.4s
     }
     
-    /*Home*/
     
-    .home-image {
-    position: absolute;
-    top: 0;
-    right: 5%;
-    height: 110%;
-    width: 50%;
-    
-    }
-    
-    .home-content {
-    position: absolute;
-    left: 5%;
-    width: 500px;
-    z-index: 10;
-    }
