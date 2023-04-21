@@ -18,18 +18,54 @@ body{
     
     }
     
+    section {
+        min-height: 100vh;
+        padding: 0 5%;
+        display:list-item;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
     
-    
+    h1 {
+        font-size: 30px;
+        text-transform: uppercase;
+        color:dimgray;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        margin-top: 23px;
+    }
+
+    .text {
+        margin-bottom: 24px;
+    }
+
+    img{
+        width: 100%;
+    }
     /*Header*/
     
     .logo {
     position: absolute;
     top: 25px;
-    left: 5%;
+    left: 2.5%;
     font-size: 45px;
     font-weight: 600;
     text-transform: uppercase;
     color: rgba(13, 110, 139, 0.75);
+    }
+
+    .swim-image {
+
+        margin-top: 10px;
+        width: 100%;
     }
     
     
@@ -186,4 +222,42 @@ body{
     transition: 0.4s
     }
     
+    .home-img1{
+        position: absolute;
+        top: 0;
+        right: 8%;
+        height: 50%;
+        width: 50%;
+        margin-top: 10%;
+
+    }
+
+
+    .home-content {
+        position: absolute;
+        right: 50%;
+        width: 600px;
+    }
+
+    /*footer*/
+
     
+footer{
+    height: 150px;
+
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
