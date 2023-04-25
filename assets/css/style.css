@@ -257,9 +257,36 @@ body{
     .column img:hover{
         box-shadow: 4px 4px 5px rgba(0, 0, 0, .7);
     }
+    .videos{
 
-    
+        margin-top: 10px;
+        margin-inline: auto;
+        
+     }
+   
+@media screen and (max-width: 800px){
+    .column{
+        flex: 50%;
+        max-width: 50%;   
+    } 
 
+    .videos{
+        flex: 50%;
+        max-width: 50%;   
+    } 
+}
+
+@media screen and (max-width: 600px){
+    .column{
+        flex: 100%;
+        max-width: 100%;   
+    } 
+
+    .videos{
+        flex: 100%;
+        max-width: 100%;   
+    } 
+}
     /*footer*/
 
     
