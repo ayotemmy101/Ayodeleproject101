@@ -17,6 +17,10 @@ body{
     line-height: 1.5;
     
     }
+
+    .photos{
+        align-content: center;
+    }
     
     .description-container{
         max-width: 1500px;
@@ -133,7 +137,7 @@ body{
     width: 100%;
     height: 3px;
     background-color: inherit;
-    z-index: 1;
+    z-index: 0.5;
     }
     
     
@@ -230,6 +234,32 @@ body{
     }
     
    
+
+    /* gallery */
+
+    .photos{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 0px;
+    }
+
+    .column{
+        flex: 25%;
+        max-width: 30%;
+        padding: 0px 0px;
+    }
+    .column img{
+        margin-top: 15px;
+        vertical-align: middle;
+        width: 98%;
+    }
+
+    .column img:hover{
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, .7);
+    }
+
+    
+
     /*footer*/
 
     
