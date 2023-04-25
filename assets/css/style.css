@@ -18,38 +18,40 @@ body{
     
     }
     
-    section {
-        min-height: 100vh;
-        padding: 0 5%;
-        display:list-item;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        
+    .description-container{
+        max-width: 1500px;
+        margin: 40px auto 20px;
+        margin-top: 30px;
     }
-    
-    h1 {
-        font-size: 30px;
-        text-transform: uppercase;
-        color:dimgray;
+
+    .description-container .home-img1{
+        max-width: 400px;
+
+    }
+
+
+.description-container .home-img2{
+    max-width: 400px;
+    margin-top: 30px;
+
+}
+
+    .description-container .home-img1.right{
+        float: right;
+        margin-left: 10px;
         margin-bottom: 10px;
+
     }
 
-    h2 {
-
-        font-size: 30px;
-        text-transform: uppercase;
+    .description-container .home-img2.left{
+        float: left;
+        margin-left: 10px;
         margin-bottom: 10px;
-        margin-top: 23px;
+        margin-top: 30px;
+
     }
 
-    .text {
-        margin-bottom: 24px;
-    }
-
-    img{
-        width: 50%;
-    }
+   
     /*Header*/
     
     .logo {
@@ -222,33 +224,7 @@ body{
     transition: 0.4s
     }
     
-    .home-img1{
-        position: absolute;
-        top: 0;
-        right: 0%;
-        height: 50%;
-        width: 45%;
-        margin-top: 100%;
-
-    }
-
-    .home-img2{
-        position: absolute;
-        top: 0;
-        right: 0%;
-        height: 50%;
-        width: 45%;
-        margin-top: 100%;
-        margin: inherit;
-    }
-
-
-    .home-content {
-        position: absolute;
-        right: 50%;
-        width: 600px;
-    }
-
+   
     /*footer*/
 
     
