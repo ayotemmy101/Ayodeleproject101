@@ -287,6 +287,68 @@ body{
         max-width: 100%;   
     } 
 }
+
+/* contact*/
+
+.contact-wrap
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-in {
+    padding: 40px 30px;
+}
+
+.contact-in:nth-child(1){
+    flex: 30%;
+    color: white;
+    background: url(../images/backg\ img\ 2.jpeg);
+}
+
+.contact-in:nth-child(2){
+    flex: 45%;
+    background: #c31432;
+}
+
+.contact-in:nth-child(3){
+    flex: 25%;
+    padding: 0;
+}
+
+.contact-in h1{
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contact-in h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.contact-in h2 i {
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background: blue;
+    line-height: 40px;
+    text-align: center;
+}
+
+.contact-in p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
     /*footer*/
 
     
