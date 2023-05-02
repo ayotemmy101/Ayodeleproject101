@@ -19,6 +19,42 @@ body{
     
     }
 
+    h1{
+        background-color: skyblue;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #252525;
+        border-bottom: none;
+    }
+    
+    h2{
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    .member p{
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1px;
+        line-height: 35px;
+        font-size: 17px;
+        margin-left: 5px;
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+
+    .member h3{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     .photos{
         align-content: center;
     }
